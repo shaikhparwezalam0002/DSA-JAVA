@@ -285,3 +285,171 @@ ans-a
    b) To define a method
    c) To define a private method in a class
    d) To define a variable
+
+
+************************
+
+Here are 10 MCQ questions from the topic of Java programming, covering variables, methods, operators, switch case, conditional statements, and loops, where you need to find the output of the given code snippet:
+
+### Question 1
+What is the output of the following code snippet?
+```java
+int x = 5;
+int y = 10;
+int sum = x + y;
+System.out.println(sum);
+```
+   a) 5
+   b) 10
+   c) 15
+   d) 20
+
+### Question 2
+What is the output of the following code snippet?
+```java
+int x = 5;
+int y = 10;
+if (x > y) {
+    System.out.println("x is greater");
+} else {
+    System.out.println("y is greater");
+}
+```
+   a) x is greater
+   b) y is greater
+   c) Error
+   d) No output
+
+### Question 3
+What is the output of the following code snippet?
+```java
+int x = 5;
+int y = 10;
+switch (x) {
+    case 5:
+        System.out.println("x is 5");
+        break;
+    case 10:
+        System.out.println("x is 10");
+        break;
+    default:
+        System.out.println("x is neither 5 nor 10");
+}
+```
+   a) x is 5
+   b) x is 10
+   c) x is neither 5 nor 10
+   d) Error
+
+### Question 4
+What is the output of the following code snippet?
+```java
+int x = 5;
+int y = 10;
+if (x > y) {
+    System.out.println("x is greater");
+} else if (x < y) {
+    System.out.println("y is greater");
+} else {
+    System.out.println("x and y are equal");
+}
+```
+   a) x is greater
+   b) y is greater
+   c) x and y are equal
+   d) Error
+
+### Question 5
+What is the output of the following code snippet?
+```java
+int x = 5;
+int y = 10;
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+```
+   a) 0, 1, 2, 3, 4
+   b) 1, 2, 3, 4, 5
+   c) 0, 1, 2, 3
+   d) Error
+
+### Question 6
+What is the output of the following code snippet?
+```java
+int x = 5;
+int y = 10;
+while (x < y) {
+    System.out.println(x);
+    x++;
+}
+```
+   a) 5, 6, 7, 8, 9
+   b) 5, 6, 7, 8
+   c) 5, 6, 7
+   d) Error
+
+### Question 7
+What is the output of the following code snippet?
+```java
+int x = 5;
+int y = 10;
+do {
+    System.out.println(x);
+    x++;
+} while (x < y);
+```
+   a) 5, 6, 7, 8, 9
+   b) 5, 6, 7, 8
+   c) 5, 6, 7
+   d) Error
+
+### Question 8
+What is the output of the following code snippet?
+```java
+int x = 5;
+int y = 10;
+if (x > y) {
+    System.out.println("x is greater");
+} else {
+    System.out.println("y is greater");
+}
+```
+   a) x is greater
+   b) y is greater
+   c) Error
+   d) No output
+
+### Question 9
+What is the output of the following code snippet?
+```java
+int x = 5;
+int y = 10;
+switch (x) {
+    case 5:
+        System.out.println("x is 5");
+        break;
+    case 10:
+        System.out.println("x is 10");
+        break;
+    default:
+        System.out.println("x is neither 5 nor 10");
+}
+```
+   a) x is 5
+   b) x is 10
+   c) x is neither 5 nor 10
+   d) Error
+
+### Question 10
+What is the output of the following code snippet?
+```java
+int x = 5;
+int y = 10;
+for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+```
+   a) 0, 1, 2, 3, 4
+   b) 1, 2, 3, 4, 5
+   c) 0, 1, 2, 3
+   d) Error
