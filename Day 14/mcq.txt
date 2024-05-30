@@ -1,0 +1,287 @@
+**Variables (20 questions)**
+
+1. What is the default value of an integer variable in Java?
+   a) 0
+   b) 1
+   c) null
+   d) undefined
+ans-(a)
+2. Which of the following is a valid variable name in Java?
+   a) 123
+   b) myVar
+   c) $myVar
+   d) my-var
+ans-(b)
+3. What is the purpose of the `final` keyword in Java when used with variables?
+   a) To make a variable constant
+   b) To make a variable volatile
+   c) To make a variable static
+   d) To make a variable transient
+ans-(a)
+4. What is the difference between `int` and `Integer` in Java?
+   a) `int` is a primitive type, while `Integer` is a wrapper class
+   b) `int` is a wrapper class, while `Integer` is a primitive type
+   c) `int` is used for arithmetic operations, while `Integer` is used for string operations
+   d) `int` is used for string operations, while `Integer` is used for arithmetic operations
+ans- a
+5. What is the purpose of the `volatile` keyword in Java when used with variables?
+   a) To make a variable thread-safe
+   b) To make a variable constant
+   c) To make a variable static
+   d) To make a variable transient
+ans-a
+
+E.g.
+public class Counter {
+    private volatile int count = 0;
+
+    public void increment() {
+        count++;
+    }
+
+    public int getCount() {
+        return count;
+    }
+}
+
+6. What is the difference between `short` and `Short` in Java?
+   a) `short` is a primitive type, while `Short` is a wrapper class
+   b) `short` is a wrapper class, while `Short` is a primitive type
+   c) `short` is used for arithmetic operations, while `Short` is used for string operations
+   d) `short` is used for string operations, while `Short` is used for arithmetic operations
+ans-a
+7. What is the purpose of the `transient` keyword in Java when used with variables?
+   a) To make a variable thread-safe
+   b) To make a variable constant
+   c) To make a variable static
+   d) To make a variable non-persistent
+ans-d
+8. What is the difference between `long` and `Long` in Java?
+   a) `long` is a primitive type, while `Long` is a wrapper class
+   b) `long` is a wrapper class, while `Long` is a primitive type
+   c) `long` is used for arithmetic operations, while `Long` is used for string operations
+   d) `long` is used for string operations, while `Long` is used for arithmetic operations
+ans-a
+9. What is the purpose of the `static` keyword in Java when used with variables?
+   a) To make a variable constant
+   b) To make a variable volatile
+   c) To make a variable static
+   d) To make a variable transient
+
+10. What is the difference between `float` and `Float` in Java?
+   a) `float` is a primitive type, while `Float` is a wrapper class
+   b) `float` is a wrapper class, while `Float` is a primitive type
+   c) `float` is used for arithmetic operations, while `Float` is used for string operations
+   d) `float` is used for string operations, while `Float` is used for arithmetic operations
+
+11. What is the purpose of the `final` keyword in Java when used with methods?
+   a) To make a method constant
+   b) To make a method volatile
+   c) To make a method static
+   d) To make a method non-overridable
+
+12. What is the difference between `double` and `Double` in Java?
+   a) `double` is a primitive type, while `Double` is a wrapper class
+   b) `double` is a wrapper class, while `Double` is a primitive type
+   c) `double` is used for arithmetic operations, while `Double` is used for string operations
+   d) `double` is used for string operations, while `Double` is used for arithmetic operations
+
+13. What is the purpose of the `volatile` keyword in Java when used with methods?
+   a) To make a method thread-safe
+   b) To make a method constant
+   c) To make a method static
+   d) To make a method non-overridable
+
+14. What is the difference between `char` and `Character` in Java?
+   a) `char` is a primitive type, while `Character` is a wrapper class
+   b) `char` is a wrapper class, while `Character` is a primitive type
+   c) `char` is used for string operations, while `Character` is used for arithmetic operations
+   d) `char` is used for arithmetic operations, while `Character` is used for string operations
+
+15. What is the purpose of the `transient` keyword in Java when used with methods?
+   a) To make a method thread-safe
+   b) To make a method constant
+   c) To make a method static
+   d) To make a method non-persistent
+
+16. What is the difference between `boolean` and `Boolean` in Java?
+   a) `boolean` is a primitive type, while `Boolean` is a wrapper class
+   b) `boolean` is a wrapper class, while `Boolean` is a primitive type
+   c) `boolean` is used for arithmetic operations, while `Boolean` is used for string operations
+   d) `boolean` is used for string operations, while `Boolean` is used for arithmetic operations
+
+17. What is the purpose of the `final` keyword in Java when used with classes?
+   a) To make a class constant
+   b) To make a class volatile
+   c) To make a class static
+   d) To make a class non-instantiable
+
+18. What is the difference between `byte` and `Byte` in Java?
+   a) `byte` is a primitive type, while `Byte` is a wrapper class
+   b) `byte` is a wrapper class, while `Byte` is a primitive type
+   c) `byte` is used for arithmetic operations, while `Byte` is used for string operations
+   d) `byte` is used for string operations, while `Byte` is used for arithmetic operations
+
+19. What is the purpose of the `volatile` keyword in Java when used with classes?
+   a) To make a class thread-safe
+   b) To make a class constant
+   c) To make a class static
+   d) To make a class non-instantiable
+
+20. What is the difference between `short` and `Short` in Java?
+   a) `short` is a primitive type, while `Short` is a wrapper class
+   b) `short` is a wrapper class, while `Short` is a primitive type
+   c) `short` is used for arithmetic operations, while `Short` is used for string operations
+   d) `short` is used for string operations, while `Short` is used for arithmetic operations
+
+**Methods/Functions (20 questions)**
+
+21. What is the purpose of the `abstract` keyword in Java when used with methods?
+   a) To make a method constant
+   b) To make a method volatile
+   c) To make a method abstract
+   d) To make a method non-overridable
+
+22. What is the difference between `public` and `private` access modifiers in Java?
+   a) `public` is used for methods that can be accessed from outside the class, while `private` is used for methods that can only be accessed within the class
+   b) `public` is used for methods that can only be accessed within the class, while `private` is used for methods that can be accessed from outside the class
+   c) `public` is used for methods that are static, while `private` is used for methods that are non-static
+   d) `public` is used for methods that are non-static, while `private` is used for methods that are static
+
+23. What is the purpose of the `final` keyword in Java when used with methods?
+   a) To make a method constant
+   b) To make a method volatile
+   c) To make a method static
+   d) To make a method non-overridable
+
+24. What is the difference between `static` and `non-static` methods in Java?
+   a) `static` methods are instance methods, while `non-static` methods are class methods
+   b) `static` methods are class methods, while `non-static` methods are instance methods
+   c) `static` methods are used for arithmetic operations, while `non-static` methods are used for string operations
+   d) `static` methods are used for string operations, while `non-static` methods are used for arithmetic operations
+
+25. What is the purpose of the `abstract` keyword in Java when used with classes?
+   a) To make a class constant
+   b) To make a class volatile
+   c) To make a class abstract
+   d) To make a class non-instantiable
+
+26. What is the difference between `public` and `protected` access modifiers in Java?
+   a) `public` is used for methods that can be accessed from outside the class, while `protected` is used for methods that can only be accessed within the class
+   b) `public` is used for methods that can only be accessed within the class, while `protected` is used for methods that can be accessed from outside the class
+   c) `public` is used for methods that are static, while `protected` is used for methods that are non-static
+   d) `public` is used for methods that are non-static, while `protected` is used for methods that are static
+
+27. What is the purpose of the `final` keyword in Java when used with classes?
+   a) To make a class constant
+   b) To make a class volatile
+   c) To make a class static
+   d) To make a class non-instantiable
+
+28. What is the difference between `abstract` and `interface` in Java?
+   a) `abstract` is a type of class, while `interface` is a type of method
+   b) `abstract` is a type of method, while `interface` is a type of class
+   c) `abstract` is used for implementing methods, while `interface` is used for extending classes
+   d) `abstract` is used for extending classes, while `interface` is used for implementing methods
+
+29. What is the purpose of the `interface` keyword in Java?
+   a) To define a class
+   b) To define a method
+   c) To define an interface
+   d) To define a variable
+
+30. What is the difference between `public` and `default` access modifiers in Java?
+   a) `public` is used for methods that can be accessed from outside the class, while `default` is used for methods that can only be accessed within the class
+   b) `public` is used for methods that can only be accessed within the class, while `default` is used for methods that can be accessed from outside the class
+   c) `public` is used for methods that are static, while `default` is used for methods that are non-static
+   d) `public` is used for methods that are non-static, while `default` is used for methods that are static
+
+31. What is the purpose of the `default` keyword in Java?
+   a) To define a class
+   b) To define a method
+   c) To define a default method in an interface
+   d) To define a variable
+
+32. What is the difference between `public` and `private` access modifiers in Java?
+   a) `public` is used for methods that can be accessed from outside the class, while `private` is used for methods that can only be accessed within the class
+   b) `public` is used for methods that can only be accessed within the class, while `private` is used for methods that can be accessed from outside the class
+   c) `public` is used for methods that are static, while `private` is used for methods that are non-static
+   d) `public` is used for methods that are non-static, while `private` is used for methods that are static
+
+33. What is the purpose of the `private` keyword in Java?
+   a) To define a class
+   b) To define a method
+   c) To define a private method in a class
+   d) To define a variable
+
+34. What is the difference between `public` and `protected` access modifiers in Java?
+   a) `public` is used for methods that can be accessed from outside the class, while `protected` is used for methods that can only be accessed within the class
+   b) `public` is used for methods that can only be accessed within the class, while `protected` is used for methods that can be accessed from outside the class
+   c) `public` is used for methods that are static, while `protected` is used for methods that are non-static
+   d) `public` is used for methods that are non-static, while `protected` is used for methods that are static
+
+35. What is the purpose of the `protected` keyword in Java?
+   a) To define a class
+   b) To define a method
+   c) To define a protected method in a class
+   d) To define a variable
+
+36. What is the difference between `public` and `default` access modifiers in Java?
+   a) `public` is used for methods that can be accessed from outside the class, while `default` is used for methods that can only be accessed within the class
+   b) `public` is used for methods that can only be accessed within the class, while `default` is used for methods that can be accessed from outside the class
+   c) `public` is used for methods that are static, while `default` is used for methods that are non-static
+   d) `public` is used for methods that are non-static, while `default` is used for methods that are static
+
+37. What is the purpose of the `default` keyword in Java?
+   a) To define a class
+   b) To define a method
+   c) To define a default method in an interface
+   d) To define a variable
+
+38. What is the difference between `public` and `private` access modifiers in Java?
+   a) `public` is used for methods that can be accessed from outside the class, while `private` is used for methods that can only be accessed within the class
+   b) `public` is used for methods that can only be accessed within the class, while `private` is used for methods that can be accessed from outside the class
+   c) `public` is used for methods that are static, while `private` is used for methods that are non-static
+   d) `public` is used for methods that are non-static, while `private` is used for methods that are static
+
+39. What is the purpose of the `private` keyword in Java?
+   a) To define a class
+   b) To define a method
+   c) To define a private method in a class
+   d) To define a variable
+
+40. What is the difference between `public` and `protected` access modifiers in Java?
+   a) `public` is used for methods that can be accessed from outside the class, while `protected` is used for methods that can only be accessed within the class
+   b) `public` is used for methods that can only be accessed within the class, while `protected` is used for methods that can be accessed from outside the class
+   c) `public` is used for methods that are static, while `protected` is used for methods that are non-static
+   d) `public` is used for methods that are non-static, while `protected` is used for methods that are static
+
+41. What is the purpose of the `protected` keyword in Java?
+   a) To define a class
+   b) To define a method
+   c) To define a protected method in a class
+   d) To define a variable
+
+42. What is the difference between `public` and `default` access modifiers in Java?
+   a) `public` is used for methods that can be accessed from outside the class, while `default` is used for methods that can only be accessed within the class
+   b) `public` is used for methods that can only be accessed within the class, while `default` is used for methods that can be accessed from outside the class
+   c) `public` is used for methods that are static, while `default` is used for methods that are non-static
+   d) `public` is used for methods that are non-static, while `default` is used for methods that are static
+
+43. What is the purpose of the `default` keyword in Java?
+   a) To define a class
+   b) To define a method
+   c) To define a default method in an interface
+   d) To define a variable
+
+44. What is the difference between `public` and `private` access modifiers in Java?
+   a) `public` is used for methods that can be accessed from outside the class, while `private` is used for methods that can only be accessed within the class
+   b) `public` is used for methods that can only be accessed within the class, while `private` is used for methods that can be accessed from outside the class
+   c) `public` is used for methods that are static, while `private` is used for methods that are non-static
+   d) `public` is used for methods that are non-static, while `private` is used for methods that are static
+
+45. What is the purpose of the `private` keyword in Java?
+   a) To define a class
+   b) To define a method
+   c) To define a private method in a class
+   d) To define a variable
