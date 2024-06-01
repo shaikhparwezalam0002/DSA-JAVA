@@ -45,3 +45,28 @@ public class HollowGram{
         printHollow(n);
     }
 }
+/*
+PS D:\Sigma 3.0\assignment\Day 16> java HollowGram.java       
+3
+  *
+ * *
+*   *
+ * *
+  *
+PS D:\Sigma 3.0\assignment\Day 16> java HollowGram.java
+5
+    *
+   * *
+  *   *
+ *     *
+  *   *
+   * *
+    *
+PS D:\Sigma 3.0\assignment\Day 16> java HollowGram.java
+4
+   *
+  * *
+ *   *
+  * *
+   *
+*/
