@@ -21,3 +21,26 @@ public class Star_printing{
         printingStars(line);
     }
 }
+
+/*
+>PS D:\Sigma 3.0\assignment\Day 16> java Star_printing.java
+5
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+>PS D:\Sigma 3.0\assignment\Day 16> java Star_printing.java
+3
+   *
+  * *
+ * * *
+>PS D:\Sigma 3.0\assignment\Day 16> java Star_printing.java
+6
+      *
+     * *
+    * * *
+   * * * *
+  * * * * *
+ * * * * * *
+*/
