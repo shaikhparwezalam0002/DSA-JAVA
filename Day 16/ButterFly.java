@@ -34,3 +34,28 @@ public class ButterFly{
         printButterFly(line);
     }
 }
+
+/*
+PS D:\Sigma 3.0\assignment\Day 16> java ButterFly.java
+4
+*      *
+**    **
+***  ***
+********
+***  ***
+**    **
+*      *
+PS D:\Sigma 3.0\assignment\Day 16> java ButterFly.java
+6
+*          *
+**        **
+***      ***
+****    ****
+*****  *****
+************
+*****  *****
+****    ****
+***      ***
+**        **
+*          *
+*/
