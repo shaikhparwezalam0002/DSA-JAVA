@@ -41,3 +41,33 @@ public class SubArraySum{
         pnSubArraySum(arr);
     }
 }
+
+/*
+>PS D:\Sigma 3.0\assignment\Day 19> java SubArraySum.java
+5
+2 4 6 8 10
+
+( 2 ) = 2
+( 2 4 ) = 6
+( 2 4 6 ) = 12
+( 2 4 6 8 ) = 20
+( 2 4 6 8 10 ) = 30
+
+( 4 ) = 4
+( 4 6 ) = 10
+( 4 6 8 ) = 18
+( 4 6 8 10 ) = 28
+
+( 6 ) = 6
+( 6 8 ) = 14
+( 6 8 10 ) = 24
+
+( 8 ) = 8
+( 8 10 ) = 18
+
+( 10 ) = 10
+
+minimum value is: 2
+maximum value is: 30
+total pair is: 15
+*/
