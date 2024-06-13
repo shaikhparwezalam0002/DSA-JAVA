@@ -1,4 +1,4 @@
-//Arrays--Search in Rotated Sorted Array--Microsoft Google Adobe Amazon D-E-Shaw Flipkart Hike Intuit MakeMyTrip Paytm 
+//Arrays--Chocolate Distribution Problem
 class Solution
 {
     public long findMinDiff (ArrayList<Integer> a, int n, int m)
