@@ -1,0 +1,10 @@
+//136. Single Number on leetcode
+class SingleNumber {
+    public int singleNumber(int[] nums) {
+        int result=0;
+        for(int i=0;i<nums.length;i++){
+            result ^= nums[i];
+        }
+        return result;
+    }
+}
