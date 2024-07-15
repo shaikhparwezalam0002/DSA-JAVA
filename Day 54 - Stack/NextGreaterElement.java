@@ -1,4 +1,4 @@
-
+//next greater element - gfg
 class Solution
 {
     //Function to find the next greater element for each element of the array.
